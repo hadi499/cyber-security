@@ -1,0 +1,10 @@
+sudo apt install hcxdumptool 
+
+
+apt install hcxtools
+
+git clone https://github.com/JPaulMora/Pyrit.git
+cd Pyrit
+sudo python setup.py clean
+sudo python setup.py build
+sudo python setup.py install
