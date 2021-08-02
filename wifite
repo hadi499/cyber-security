@@ -8,3 +8,5 @@ cd Pyrit
 sudo python setup.py clean
 sudo python setup.py build
 sudo python setup.py install
+
+sudo wifite --dict wifipass.txt --kill
