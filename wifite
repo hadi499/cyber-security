@@ -1,7 +1,7 @@
 sudo apt install hcxdumptool 
 
 
-apt install hcxtools
+sudo apt install hcxtools
 
 git clone https://github.com/JPaulMora/Pyrit.git
 cd Pyrit
