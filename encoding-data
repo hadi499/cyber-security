@@ -1,0 +1,30 @@
+python 2.7
+
+string
+
+"313370000".encode("hex") 
+33 31 33 33 37 30 30 30 30 --> 9 bytes
+
+
+angka
+hex(313370000)
+big endian : 12 ad a5 90  --> 4 bytes
+little endian : 90 a5 ad 12 --> 4 bytes
+
+import struct
+struct.pack("<I", 313370000) little endian 
+'\x90\xa5\xad\x12'
+
+struct.pack(">I", 313370000) big endian
+'\x12\xad\xa5\x90'
+
+
+struct.unpack("<I", '\x90\xa5\xad\x12')
+(313370000,)
+
+open("/home/hadi/cyber/1.txt", "w").write("313370000")
+open("/home/hadi/cyber/2.txt", "w").write(struct.pack("<I", 313370000))
+open("/home/hadi/cyber/3.txt", "w").write(struct.pack(">I", 313370000))
+
+
+echo -ne "48414C4F" | xxd -r -p
