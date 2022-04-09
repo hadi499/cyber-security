@@ -28,3 +28,19 @@ open("/home/hadi/cyber/3.txt", "w").write(struct.pack(">I", 313370000))
 
 
 echo -ne "48414C4F" | xxd -r -p
+HALO% 
+
+echo -ne "Hadi Purnomo\x01\xff" | base64
+SGFkaSBQdXJub21vAf8=
+
+
+cyber echo -ne "SGFkaSBQdXJub21vAf8=" | base64 -d
+Hadi Purnomo�% 
+
+➜  cyber hd file
+00000000  48 41 4c 4f 0a                                    |HALO.|
+00000005
+
+
+
+
