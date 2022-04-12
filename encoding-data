@@ -43,4 +43,5 @@ Hadi Purnomo�%
 
 file window.png
 binwalk win.png 
+foremost -v win.png ---> memisahkan file file tersembunyi
 
