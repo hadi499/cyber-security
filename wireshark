@@ -1,0 +1,3 @@
+sudo dpkg-reconfigure wireshark-common
+pilih yes ketika ada prompt "should not superuser can capture packet ?"
+sudo usermod -a -G wireshark hadi
