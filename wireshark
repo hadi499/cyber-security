@@ -1,3 +1,7 @@
 sudo dpkg-reconfigure wireshark-common
 pilih yes ketika ada prompt "should not superuser can capture packet ?"
 sudo usermod -a -G wireshark hadi
+
+
+# GEO IP LINUX
+sudo apt install libjs-leaflet libjs-leaflet.markercluster
