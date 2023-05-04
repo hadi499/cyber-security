@@ -1,0 +1,6 @@
+ip.src
+ip.dst
+ip.addr == 10.10.10.1
+dns and http
+dns or http
+tcp.port == 443
