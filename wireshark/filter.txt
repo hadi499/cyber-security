@@ -17,7 +17,12 @@ klik kanan -- follow -- tcp stream
 tcp contains facebook
 udp contains facebook
 
+http.request
+http.response.code == 200
+tcp.flags.syn == 1
+tcp.flags.reset == 1
 
+sip && rtp
 
 
 
