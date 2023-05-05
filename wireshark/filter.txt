@@ -4,3 +4,30 @@ ip.addr == 10.10.10.1
 dns and http
 dns or http
 tcp.port == 443
+
+# analysis problem
+tcp.analysis.flags
+
+#remove annoying
+!(arp or dns icmp)
+
+klik kanan -- follow -- tcp stream 
+
+#mencari content
+tcp contains facebook
+udp contains facebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
