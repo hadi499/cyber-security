@@ -1,2 +1,9 @@
 # GEO IP LINUX
 sudo apt install libjs-leaflet libjs-leaflet.markercluster
+
+download file GeoLite2-ASN.mmdb, GeoLite2-City.mmdb , GeoLite2-Country.mmdb
+extract di folder yag diinginkan
+
+Edit -> Preferences -> NameResolution -> MaxMind database directories
+
+Statistics - Endpoint 
